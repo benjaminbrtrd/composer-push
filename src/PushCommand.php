@@ -86,7 +86,7 @@ EOT
      * @throws \Exception
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $sourceType = $input->getOption('src-type');
         $sourceUrl = $input->getOption('src-url');
@@ -156,6 +156,8 @@ EOT
                 );
             unlink($fileName);
         }
+
+		return 0;
     }
 
     /**
