@@ -1,12 +1,16 @@
 {
-    "name": "elendev/composer-push",
-    "description": "Provide a Push command to composer to push to repositories",
+    "name": "benjaminbrtrd/composer-push",
+    "description": "Provide a Push command to composer to push to repositories, forked from elendev/composer-push to work with PHP 8+",
     "type": "composer-plugin",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "Elendev",
             "email": "jonas.renaudot@gmail.com"
+        },
+        {
+            "name": "Benjamin BERTRAND",
+            "email": "benjamin.bertrand97@live.fr"
         }
     ],
     "autoload": {
